@@ -106,7 +106,7 @@ function renderCards(items, startIndex) {
     };
 
     const formUrl =
-      "https://sina-glam.github.io/redirect/?x=" +
+      "https://github.com/MetalCrusher300/band-donation-redir/?x=" +
       encodeURIComponent(item.description);
     const card = document.createElement("article");
     card.className = "card";
