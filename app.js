@@ -106,7 +106,7 @@ function renderCards(items, startIndex) {
     };
 
     const formUrl =
-      "https://github.com/MetalCrusher300/band-donation-redir/?x=" +
+      "https://metalcrusher300.github.io/band-donation-redir/?x=" +
       encodeURIComponent(item.description);
     const card = document.createElement("article");
     card.className = "card";
